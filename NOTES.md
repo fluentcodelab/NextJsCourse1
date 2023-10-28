@@ -17,3 +17,7 @@ Next.js has a few special files:
 - route.tsx: creates APIs
 - not-found.tsx: shows custom errors
 - error.tsx: shows general custom error pages
+
+Catch-all segment makes use of ```slug``` to capture an array of parameters  
+Using ```[[...slug]]``` makes the parameters optional.  
+Using ```[...slug]``` without parameters yields a 404 error page.
