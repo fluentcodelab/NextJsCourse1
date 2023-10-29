@@ -21,3 +21,8 @@ Next.js has a few special files:
 Catch-all segment makes use of ```slug``` to capture an array of parameters  
 Using ```[[...slug]]``` makes the parameters optional.  
 Using ```[...slug]``` without parameters yields a 404 error page.
+
+### Database integration with Prisma
+Install Prisma using ```npm i prisma```  
+Run in a terminal ```npx prisma``` to see available commands  
+- Run ```npm prisma init``` to setup Prisma for the app
