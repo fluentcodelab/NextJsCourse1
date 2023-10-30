@@ -30,4 +30,7 @@ Run in a terminal ```npx prisma``` to see available commands
 ### Uploading files
 We're using Cloudinary (Free tier)  
 ```npm i next-cloudinary```  
-Find more about the package at [https://next.cloudinary.dev/](https://next.cloudinary.dev/)
+Find more about the package at [https://next.cloudinary.dev/](https://next.cloudinary.dev/)  
+In order to get the upload preset value, go to:  
+```Cloudinary > Settings > Upload```  
+Click on ```Add upload preset```
