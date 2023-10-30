@@ -32,5 +32,5 @@ We're using Cloudinary (Free tier)
 ```npm i next-cloudinary```  
 Find more about the package at [https://next.cloudinary.dev/](https://next.cloudinary.dev/)  
 In order to get the upload preset value, go to:  
-```Cloudinary > Settings > Upload```  
-Click on ```Add upload preset```
+```Cloudinary > Settings > Upload```, then click on ```Add upload preset```  
+Check ```demo.cloudinary.com/uw/#/``` to see how to customize upload widget

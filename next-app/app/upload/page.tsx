@@ -20,6 +20,12 @@ const UploadPage = () => {
       )}
       <CldUploadWidget
         uploadPreset="auxlzag8"
+        options={{
+          sources: ['local'],
+          multiple: false,
+          maxFiles: 5,
+          // Check out demo.cloudinary.com/uw/#/ for more options
+        }}
         onUpload={(result, widget) => {
           if (result.event !== 'success') return;
           const info = result.info as CloudinaryResult;
