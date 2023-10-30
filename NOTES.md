@@ -26,3 +26,8 @@ Using ```[...slug]``` without parameters yields a 404 error page.
 Install Prisma using ```npm i prisma```  
 Run in a terminal ```npx prisma``` to see available commands  
 - Run ```npm prisma init``` to setup Prisma for the app
+
+### Uploading files
+We're using Cloudinary (Free tier)  
+```npm i next-cloudinary```  
+Find more about the package at [https://next.cloudinary.dev/](https://next.cloudinary.dev/)
