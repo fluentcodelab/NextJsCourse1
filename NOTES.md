@@ -38,3 +38,8 @@ Check ```demo.cloudinary.com/uw/#/``` to see how to customize upload widget
 ### Authentication with Next Auth
 - Use ```openssl rand -base64 32``` to generate a random password of 32 bytes
 - Check https://console.developers.google.com/apis/credentials to setup a Google provider
+
+### Sending Emails
+- We're using [Resend](http://resend.com).
+- There are many other alternatives: SendGrid for example.
+- Configure the sender domain from resend.com/domains
