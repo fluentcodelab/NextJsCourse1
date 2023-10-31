@@ -33,4 +33,7 @@ We're using Cloudinary (Free tier)
 Find more about the package at [https://next.cloudinary.dev/](https://next.cloudinary.dev/)  
 In order to get the upload preset value, go to:  
 ```Cloudinary > Settings > Upload```, then click on ```Add upload preset```  
-Check ```demo.cloudinary.com/uw/#/``` to see how to customize upload widget
+Check ```demo.cloudinary.com/uw/#/``` to see how to customize upload widget  
+
+### Authentication with Next Auth
+- Use ```openssl rand -base64 32``` to generate a random password of 32 bytes
