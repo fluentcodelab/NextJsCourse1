@@ -6,19 +6,23 @@ import {
   Text,
   Link,
   Preview,
+  Tailwind,
 } from '@react-email/components';
 
 const WelcomeTemplate = ({ name }: { name: string }) => {
   return (
     <Html>
       <Preview>Welcome aboard!</Preview>
-      <Body>
-        <Container>
-          <Text>Hello {name}</Text>
-          <Link href="http://cypher-agency.net">www.cypher-agency.net</Link>
-        </Container>
-      </Body>
+      <Tailwind>
+        <Body className="bg-white">
+          <Container>
+            <Text className="font-bold text-3xl">Hello {name}</Text>
+            <Link href="http://cypher-agency.net">www.cypher-agency.net</Link>
+          </Container>
+        </Body>
+      </Tailwind>
     </Html>
   );
 };
+
 export default WelcomeTemplate;
